@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% block title %} <title> Boggle! </title> {% endblock %}
+{% block content %}
+<h1>Boggle!</h1>
+<a href="/boggle"><span class='start-btn'>START</span></a>
+<p id="highestScore">High Score: {{ high_score }}</p>
+<p id="gamesPlayed">Games Played:{{ games_played }}</p>
+<table id="startGameTable">
+    <tr>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+    <tr>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+    <tr>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+    <tr>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+    <tr>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+  </table>
+{% endblock %}

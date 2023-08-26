@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block title %} <title> Boggle! </title> {% endblock %}
+{% block content %}
+<h1>Game Result</h1>
+<a href="/boggle"><span class='start-btn'>RESTART</span></a>
+<p id="gameScore">Score: {{ score }}</p>
+<p id="highestScore">High Score: {{ high_score }}</p>
+<p id="gamesPlayed">Games Played: {{ games_played }}</p>
+{% endblock %}
