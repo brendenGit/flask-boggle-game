@@ -32,7 +32,7 @@ async function guessValueClick(evt) {
 $guessForm.on('submit', guessValueClick);
 
 
-let timeLeft = 10;
+let timeLeft = 60;
 
 const interval = setInterval(async function () {
     $timer.text(`Timer: ${timeLeft}`);
